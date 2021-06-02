@@ -1,0 +1,97 @@
+<template lang="">
+    <div id="header">
+        <div class="logo">
+            <img class="logo" alt="Vue logo" src="../assets/logo.png">
+        </div>
+        <div class='nav'>
+            <ul>
+                <li>
+                    <a href="#firstSection">
+                       <p>Home</p> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#skillsSection">
+                       <p>Skills</p> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#Portfolio">
+                       <p>Portfolio</p> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#WorkExperience">
+                       <p>Experience</p> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#ContactMeContent">
+                       <p>Contact Me</p> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style scoped>
+    
+   #header {
+        position:absolute;
+        top:0;
+        left:0;
+        z-index: 2;
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: -1px 1px 8px 0px #00000038;
+        animation: show .8s infinite forwards ;
+        animation-iteration-count: 1;
+
+    }
+    @keyframes show {
+        from {height: 0px;}
+        to {height: 65px;}
+    }
+    
+    .logo {
+        height:40px;
+        width:40px;
+        
+    }
+    .logo, .nav{
+        animation: showlogo 2s infinite forwards ;
+        animation-iteration-count: 1;
+    }
+    @keyframes showlogo {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+   
+   .nav ul, .nav li{
+       display:flex;
+       list-style:none;
+   }
+   .nav li{
+       margin-left:5px;
+   }
+   .nav li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(169 179 193);
+    letter-spacing: .05rem;
+    transition:.3s;
+
+   }
+   .nav li a:hover{
+       color:rgb(190, 199, 213);
+   }
+   
+</style>
