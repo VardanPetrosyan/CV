@@ -212,11 +212,6 @@ body{
         background-repeat: no-repeat;
         background-size: 100%;
     }
-    .share{
-          position: fixed;
-          left: 0;
-          top: 0;
-    }
     @media only screen and (max-width: 425px) {
        .groupe-section{
          background-size: cover;

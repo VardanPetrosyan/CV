@@ -27,8 +27,8 @@ export default {
 }
 </script>
 <style scoped>
-    #share[data-v-df0b9742] {
-        position: relative;
+    #share {
+        position: absolute;
         left: -60px;
         top: 100px;
         z-index: 9999;
