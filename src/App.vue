@@ -5,6 +5,8 @@
     v-on:cloas-banner="cloasBanner"
     />
     <Header v-if="showContent"/>
+    <div>
+    </div>
     <FirstSection v-if="showContent"/>
     <SkillSection v-if="showContent" />
     <div class="groupe-section" v-if="showContent">
@@ -36,14 +38,12 @@ import Footer from './components/Footer.vue'
 
 
 
-
 export default {
   name: 'App',
    data() {
     return {
       showBanner: true,
       showContent:false,
-     
     }
   },
   components: {
@@ -55,7 +55,7 @@ export default {
     WorkExperience,
     ContactMe,
     Footer,
-    Share
+    Share,
   },
  
   methods: {

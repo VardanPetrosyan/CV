@@ -6,11 +6,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueCircleSlider from 'vue-circle-slider'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import quickMenu from 'vue-quick-menu'
 
 library.add(faUserSecret)
 
 Vue.use(VueCircleSlider)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('vue-quick-menu', quickMenu)
 
 Vue.config.productionTip = false
 

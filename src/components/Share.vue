@@ -91,4 +91,9 @@ export default {
     #share p{
        margin:0;
     }
+    @media only screen and (max-width: 425px) {
+       #share{
+           left:-55px;
+       }
+    }
 </style>

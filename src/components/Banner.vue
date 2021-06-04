@@ -6,7 +6,6 @@
                         <div class="circle-wrapper">
                             <div class="error circle"></div>
                             <div class="icon">
-                            <i class="fa fa-times"></i>
                                 <font-awesome-icon icon="user-secret" />
                             </div>
                         </div>
