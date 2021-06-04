@@ -28,7 +28,7 @@ export default {
 </script>
 <style scoped>
     #share {
-        position: absolute;
+        position: fixed;
         left: -60px;
         top: 100px;
         z-index: 9999;
