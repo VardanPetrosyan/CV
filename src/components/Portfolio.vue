@@ -5,7 +5,7 @@
                 <h3 class="numOfTitle">02</h3><h3 class="title">PORTFOLIO</h3>
             </div>
             <div class="show-more" data-aos="fade-up">
-                <span>FRESH WORKS.</span><router-link class="link-portfolio" to="/portfolio">SHOW MORE ...</router-link>
+                <span>FRESH WORKS.</span><router-link class="link-portfolio" to="/CV/portfolio">SHOW MORE ...</router-link>
             </div>
 
             <div class="main-box" >

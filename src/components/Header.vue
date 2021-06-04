@@ -51,7 +51,7 @@ export default {
             showContent:false,
             count:4,
             icons:["fa fa-home","fa fa-history","fa fa-cogs","fa fa-address-card"],
-            list:[{isLink: true, url: "/" },{'isLink':true,url:"#skillsSection"},{'isLink':true,url:"/portfolio"},{'isLink':true,url:"#ContactMeContent"}],
+            list:[{isLink: true, url: "/CV/" },{'isLink':true,url:"#skillsSection"},{'isLink':true,url:"/CV/portfolio"},{'isLink':true,url:"#ContactMeContent"}],
             backgroundColor:'rgb(170 174 177)',
             color:'black',
             position:'bottom-right',
