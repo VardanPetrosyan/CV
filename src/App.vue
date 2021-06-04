@@ -13,7 +13,9 @@
     </div>
     <ContactMe v-if="showContent"/>
     <Footer v-if="showContent"/>
-    <Share v-if="showContent"/>
+    <div class="share">
+      <Share v-if="showContent"/>
+    </div>
 
   </div>
 </template>
@@ -209,6 +211,11 @@ body{
         background-position: top;
         background-repeat: no-repeat;
         background-size: 100%;
+    }
+    .share{
+          position: fixed;
+          left: 0;
+          top: 0;
     }
     @media only screen and (max-width: 425px) {
        .groupe-section{
