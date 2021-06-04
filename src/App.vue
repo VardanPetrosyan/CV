@@ -4,7 +4,6 @@
     v-if="showBanner"
     v-on:cloas-banner="cloasBanner"
     />
-    <Share v-if="showContent"/>
     <Header v-if="showContent"/>
     <FirstSection v-if="showContent"/>
     <SkillSection v-if="showContent" />
@@ -14,6 +13,8 @@
     </div>
     <ContactMe v-if="showContent"/>
     <Footer v-if="showContent"/>
+    <Share v-if="showContent"/>
+
   </div>
 </template>
 
