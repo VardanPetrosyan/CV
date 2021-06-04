@@ -213,6 +213,7 @@ body{
     @media only screen and (max-width: 425px) {
        .groupe-section{
          background-size: cover;
+         min-height: max-content;
        }
 }
 

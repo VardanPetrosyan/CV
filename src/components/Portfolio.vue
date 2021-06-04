@@ -120,6 +120,13 @@ export default {
         width:100%;
     }
     @media only screen and (max-width: 425px) {
+        #Portfolio {
+            min-height: max-content;
+        }
+        #Portfolio .content{
+            min-height: max-content;
+            padding: 40px 0px;
+        }
        .title-box h3{
            font-size: 39px;
        }

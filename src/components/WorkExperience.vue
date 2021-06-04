@@ -152,7 +152,7 @@ export default {
     }
     @media only screen and (max-width: 425px) {
         #WorkExperience .content{
-            padding-bottom: unset;
+            padding-bottom: 30px;
         }
        .title-box{
            align-items: center;

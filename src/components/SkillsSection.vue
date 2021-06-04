@@ -147,7 +147,7 @@ export default {
         top: 0;
         left: 0;
         width:100%;
-        height: 100%;
+        min-height: 100vh;
         display: flex;
         align-items: flex-start;
         flex-direction: column;
