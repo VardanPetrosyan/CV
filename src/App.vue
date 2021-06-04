@@ -209,4 +209,10 @@ body{
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    @media only screen and (max-width: 425px) {
+       .groupe-section{
+         background-size: cover;
+       }
+}
+
 </style>

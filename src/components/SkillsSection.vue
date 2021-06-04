@@ -74,7 +74,6 @@
     </div>
 </template>
 <script>
-import CircularSlider from '../components/CircularSlider.vue'
 
 
 export default {
@@ -87,7 +86,6 @@ export default {
         }
     },
     components: {
-        CircularSlider
     },
     mounted(){
         this.printer()
@@ -198,5 +196,18 @@ export default {
     .skill-value{
         color: white;
         font-weight: 900;
+    }
+     @media only screen and (max-width: 425px) {
+       .title-box h3{
+            font-size: 30px;
+       }
+       .main-box p{
+           font-size: 16px;
+       }
+       svg {
+            width: 90px!important;
+            height: 90px!important;
+       }
+
     }
 </style>

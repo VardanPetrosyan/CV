@@ -119,4 +119,15 @@ export default {
         opacity:1;
         width:100%;
     }
+    @media only screen and (max-width: 425px) {
+       .title-box h3{
+           font-size: 39px;
+       }
+       .show-more span, .show-more a{
+           font-size: 16px;
+       }
+       .projectItem img{
+           width: 90%!important;
+       }
+    }
 </style>

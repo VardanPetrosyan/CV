@@ -93,7 +93,7 @@ export default {
     }
     .experienceItem {
         display: grid;
-        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-columns: 4fr 1fr 4fr;
     }
     .leftBox {
      text-align: right;
@@ -150,6 +150,21 @@ export default {
         font-size: 16px;
         font-weight: 500;
     }
-    
+    @media only screen and (max-width: 425px) {
+        #WorkExperience .content{
+            padding-bottom: unset;
+        }
+       .title-box{
+           align-items: center;
+           text-align: left;
+       }
+       .title-box h3{
+           font-size: 39px;
+       }
+       
+       .aboutWork{
+           font-size: 14px;
+       }
+}
 
 </style>

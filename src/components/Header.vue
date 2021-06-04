@@ -93,5 +93,10 @@ export default {
    .nav li a:hover{
        color:rgb(190, 199, 213);
    }
-   
+   @media only screen and (max-width: 425px) {
+       .nav ul{
+           display: none;
+       }
+
+    }
 </style>

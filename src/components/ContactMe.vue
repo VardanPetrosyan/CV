@@ -188,5 +188,28 @@ export default {
     .social p{
        margin:0;
     }
-    
+    @media only screen and (max-width: 768px) {
+    #ContactMe .content{
+        position: unset;
+        width: 90%;
+        grid-template-rows: 8fr 1fr;
+    }
+    .contacts{
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+    }
+    .rightBar h3{
+        font-size: 16px;
+    }
+    .rightBar p,.rightBar ul{
+        font-size: 14px;
+    }
+    .leftBar .firstSection,.secondSection{
+            grid-template-rows: minmax(20px,30px);
+    }
+    .thirdSection{
+        grid-template-rows: minmax(50px,100px);
+    }
+}
+
 </style>

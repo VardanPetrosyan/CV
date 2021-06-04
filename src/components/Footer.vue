@@ -18,7 +18,7 @@ export default {
 <style scoped>
     #Copyright{
         width:100%;
-        height:10vh;
+        min-height:10vh;
         background-color: #363944;
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;

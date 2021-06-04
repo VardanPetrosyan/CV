@@ -105,4 +105,10 @@ export default {
         opacity: 1;
     }
 }
+@media only screen and (max-width: 425px) {
+       .about-us-info{
+           max-width: 85%;
+           font-size: 14px!important;
+       }
+}
 </style>
