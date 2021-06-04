@@ -7,6 +7,7 @@ import VueCircleSlider from 'vue-circle-slider'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import quickMenu from 'vue-quick-menu'
+import router from './router'
 
 library.add(faUserSecret)
 
@@ -17,6 +18,7 @@ Vue.component('vue-quick-menu', quickMenu)
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   created () {
     AOS.init()
   },

@@ -32,10 +32,11 @@ export default {
 }
 </script>
 <style scoped>
+    
     #banner {
         width:100vw;
         height: 100vh;
-        position:fixed;
+        position:relative;
         top:0;
         left:0;
         z-index: 9999;

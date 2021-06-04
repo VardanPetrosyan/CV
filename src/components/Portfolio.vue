@@ -5,7 +5,7 @@
                 <h3 class="numOfTitle">02</h3><h3 class="title">PORTFOLIO</h3>
             </div>
             <div class="show-more" data-aos="fade-up">
-                <span>FRESH WORKS.</span><a href="#">SHOW MORE ...</a>
+                <span>FRESH WORKS.</span><router-link class="link-portfolio" to="/portfolio">SHOW MORE ...</router-link>
             </div>
 
             <div class="main-box" >
@@ -95,11 +95,11 @@ export default {
     .show-more span{
         color:white;
     }
-    .show-more a{
+    .show-more .link-portfolio{
          color:rgb(190, 199, 213);
          transition:.3s;
     }
-    .show-more a:hover{
+    .show-more .link-portfolio:hover{
         color:black
     }
     .main-box{

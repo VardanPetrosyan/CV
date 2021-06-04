@@ -7,9 +7,9 @@
             <div class='nav'>
                 <ul>
                     <li>
-                        <a href="#firstSection">
+                        <router-link to="/">
                         <p>Home</p> 
-                        </a>
+                        </router-link>
                     </li>
                     <li>
                         <a href="#skillsSection">   
@@ -17,9 +17,9 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#Portfolio">
+                        <router-link to="/portfolio">
                         <p>Portfolio</p> 
-                        </a>
+                        </router-link>
                     </li>
                     <li>
                         <a href="#WorkExperience">
