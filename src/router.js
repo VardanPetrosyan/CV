@@ -10,11 +10,11 @@ export default new Router({
     mode: 'history',
     routes: [
         {
-            path: '/',
+            path: '/CV/',
             component: Home
         },
         {
-            path: '/portfolio',
+            path: '/CV/portfolio',
             component: Portfolio
         }
     ]
