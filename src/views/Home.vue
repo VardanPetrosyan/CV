@@ -1,17 +1,14 @@
 <template>
   <div id="Home">
-    <Banner 
-    v-if="showBanner"
-    v-on:cloas-banner="cloasBanner"
-    />
+    
 
-    <FirstSection v-if="showContent"/>
-    <SkillSection v-if="showContent" />
-    <div class="groupe-section" v-if="showContent">
-      <Portfolio v-if="showContent"/>
-      <WorkExperience v-if="showContent"/>
+    <FirstSection />
+    <SkillSection  />
+    <div class="groupe-section" >
+      <Portfolio />
+      <WorkExperience />
     </div>
-    <ContactMe v-if="showContent"/>
+    <ContactMe />
   </div>
 </template>
 
@@ -26,15 +23,13 @@ import Portfolio from '../components/Portfolio.vue'
 import WorkExperience from '../components/WorkExperience.vue'
 import ContactMe from '../components/ContactMe.vue'
 
-import Banner from '../components/Banner.vue'
 
 
 
 export default {
    data() {
     return {
-      showBanner: true,
-      showContent:false,
+      
     }
   },
   components: {
@@ -44,22 +39,9 @@ export default {
     Portfolio,
     WorkExperience,
     ContactMe,
-    Banner,
-
-   
   },
  
-  methods: {
-        cloasBanner(bool){
-          if(bool == false){
-            this.showBanner = false
-            this.showContent = true
-            $emit('cloas-banner', false)
-          }
-        },
-        
-        
-    }
+ 
 }
 </script>
 

@@ -36,7 +36,7 @@ export default {
     #banner {
         width:100vw;
         height: 100vh;
-        position:relative;
+        position:fixed;
         top:0;
         left:0;
         z-index: 9999;
@@ -44,6 +44,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     #banner .content{
     border: 1px solid;

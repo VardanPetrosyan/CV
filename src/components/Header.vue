@@ -6,29 +6,29 @@
             <div class='nav'>
                 <ul>
                     <li>
-                        <router-link to="/CV">
+                        <router-link to="/CV" v-scroll-to="'#firstSection'">
                         <p>Home</p> 
                         </router-link>
                     </li>
                     <li>
-                        <a href="#" v-scroll-to="'#skillsSection'">   
+                        <router-link to="/CV" v-scroll-to="'#skillsSection'">   
                         <p>Skills</p> 
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <router-link to="/CV/portfolio">
+                        <router-link to="/CV/portfolio" >
                         <p>Portfolio</p> 
                         </router-link>
                     </li>
                     <li>
-                        <a href="#WorkExperience">
+                        <router-link to="/CV" v-scroll-to="'#WorkExperience'">
                         <p>Experience</p> 
-                        </a>
+                        </router-link>
                     </li>
                     <li>
-                        <a href="#ContactMeContent">
+                        <router-link to="/CV" v-scroll-to="'#ContactMeContent'">
                         <p>Contact Me</p> 
-                        </a>
+                        </router-link>
                     </li>
                 </ul>
 

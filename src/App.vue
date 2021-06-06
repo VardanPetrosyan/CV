@@ -3,7 +3,7 @@
     
     <Share />
     <Header />
-    <vue-draggable-resizable :w="100" :h="100" @dragging="onDrag" @resizing="onResize" :parent="false">
+    <vue-draggable-resizable :w="100" :h="100" :x="x" :y="y" @dragging="onDrag" @resizing="onResize" :parent="true">
       <div class="quick-menu">
           <quick-menu :menu-count=getCount :icon-class=icons :menu-url-list=list :background-color=backgroundColor :color=color :position=position :is-open-new-tab=getIsOpenNewTab @process=print></quick-menu>
       </div>
@@ -12,7 +12,10 @@
 
     <router-view />
     <Footer />
-    
+    <Banner 
+    v-if="showBanner"
+    v-on:cloas-banner="cloasBanner"
+    />
   </div>
 </template>
 
@@ -20,6 +23,7 @@
 
 import Share from './components/Share.vue'
 import quickMenu from 'vue-quick-menu'
+import Banner from './components/Banner.vue'
 
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
@@ -30,13 +34,15 @@ export default {
   name: 'App',
    data() {
     return {
+            showBanner: true,
+            showContent:false,
             width: 0,
             height: 0,
-            x: 0,
-            y: 0,
+            x: window.innerWidth-100,
+            y: window.innerHeight-100,
             count:4,
             icons:["fa fa-home","fa fa-history","fa fa-cogs","fa fa-address-card"],
-            list:[{isLink: true, url: "/CV/" },{'isLink':true,url:"#skillsSection"},{'isLink':true,url:"/CV/portfolio"},{'isLink':true,url:"#ContactMeContent"}],
+            list:[{isLink: true, url: "/CV/" },{'isLink':true,url:"/CV/#skillsSection"},{'isLink':true,url:"/CV/portfolio"},{'isLink':true,url:"/CV/#ContactMeContent"}],
             backgroundColor:'rgb(170 174 177)',
             color:'black',
             position:'bottom-right',
@@ -48,7 +54,9 @@ export default {
     Header,
     Footer ,
     Share,
-    quickMenu
+    quickMenu,
+    Banner,
+
 
   },
   methods:{
@@ -61,6 +69,13 @@ export default {
         onDrag: function (x, y) {
         this.x = x
         this.y = y
+        },
+         cloasBanner(bool){
+          if(bool == false){
+            this.showBanner = false
+            this.showContent = true
+            $emit('cloas-banner', false)
+          }
         },
     }
  
@@ -88,6 +103,8 @@ body{
     }
     .resizable {
       border: 0px!important;
+      z-index: 9999!important;
+      position: fixed!important;
     }
     .quick-menu .sub-menu{
       opacity: 0;
