@@ -25,12 +25,12 @@
                 </div>
             </div>
             <div class="buttons-groupe">
-                <button id="prev" class="prev" @click='changeProjectPrev'>prev</button>
+                <button id="prev" class="prev" @click='changeProjectPrev'><i class="fa fa-arrow-left" ></i></button>
                 <button @click='likeProject' > <i class="fa fa-heart" v-bind:style="{ 'color': like}"></i> </button>
-
-                <button id="next" class="next" @click='changeProjectNext'>next</button>
+ 
+                <button id="next" class="next" @click='changeProjectNext'><i class="fa fa-arrow-right" ></i></button>
             </div>
-            
+               
 
              <!-- <div class="portfolio-box " ref="mySpan2">
                 <div class="portfolio-header">
@@ -92,6 +92,7 @@ export default {
     };
   },
   methods:{
+      
       changeProjectPrev(){
           if(this.projectNum <= 0) {return false;}
           console.log(this.projectNum)
@@ -240,6 +241,9 @@ export default {
     height: 40px;
     background-color: silver;
     box-shadow: inset 0px 0px 20px 0px black;
+    }
+    button#prev:active,button#next:active {
+        color: white;
     }
     @media only screen and (max-width: 425px) {
         #portfolio .content{

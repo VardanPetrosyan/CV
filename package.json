@@ -15,6 +15,7 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-circle-slider": "^1.0.2",
+    "vue-draggable-resizable": "^2.3.0",
     "vue-fontawesome-icon": "^1.3.0",
     "vue-quick-menu": "^1.0.7",
     "vue-router": "^3.5.1",

@@ -8,13 +8,15 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import quickMenu from 'vue-quick-menu'
 import router from './router'
+import VueDraggableResizable from 'vue-draggable-resizable'
+import 'vue-draggable-resizable/dist/VueDraggableResizable.css'
 
 library.add(faUserSecret)
 
 Vue.use(VueCircleSlider)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('vue-quick-menu', quickMenu)
-
+Vue.component('vue-draggable-resizable', VueDraggableResizable)
 
 Vue.config.productionTip = false
 

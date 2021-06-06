@@ -1,5 +1,4 @@
 <template lang="">
-    <div class="head"> 
         <div id="header">
             <div class="logo">
                 <img class="logo" alt="Vue logo" src="../assets/logo.png">
@@ -35,33 +34,25 @@
 
             </div>
         </div>
-        <div class="quick-menu">
-            <quick-menu :menu-count=getCount :icon-class=icons :menu-url-list=list :background-color=backgroundColor :color=color :position=position :is-open-new-tab=getIsOpenNewTab @process=print></quick-menu>
-        </div>
-    </div>
+        
 </template>
 <script>
 
-import quickMenu from 'vue-quick-menu'
+import VueDraggableResizable from 'vue-draggable-resizable'
 
 export default {
     data() {
         return {
+           
             showBanner: true,
             showContent:false,
-            count:4,
-            icons:["fa fa-home","fa fa-history","fa fa-cogs","fa fa-address-card"],
-            list:[{isLink: true, url: "/CV/" },{'isLink':true,url:"#skillsSection"},{'isLink':true,url:"/CV/portfolio"},{'isLink':true,url:"#ContactMeContent"}],
-            backgroundColor:'rgb(170 174 177)',
-            color:'black',
-            position:'bottom-right',
-            isOpenNewTab:false,
+            
         
         }
     },
     components: {
-        quickMenu
     },
+    
    
 }
 </script>
@@ -119,20 +110,11 @@ export default {
    .nav li a:hover{
        color:rgb(190, 199, 213);
    }
-   .quick-menu{
-           display:none;
-    }
-    .head{
-        position: relative;
-        z-index: 3;
-    }
-   @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 425px) {
        #header{
            display:none
        }
-       .quick-menu{
-           display:block;
-       }
 
     }
+  
 </style>
