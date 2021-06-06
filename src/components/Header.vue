@@ -7,17 +7,17 @@
             <div class='nav'>
                 <ul>
                     <li>
-                        <router-link to="/">
+                        <router-link to="/CV">
                         <p>Home</p> 
                         </router-link>
                     </li>
                     <li>
-                        <a href="#skillsSection">   
+                        <a href="#" v-scroll-to="'#skillsSection'">   
                         <p>Skills</p> 
                         </a>
                     </li>
                     <li>
-                        <router-link to="/portfolio">
+                        <router-link to="/CV/portfolio">
                         <p>Portfolio</p> 
                         </router-link>
                     </li>
