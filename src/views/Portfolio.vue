@@ -1,6 +1,6 @@
 <template lang="">
     <div id="portfolio" >
-        <div class="content" >
+        <div class="content" id="content">
             <div class="portfolio-box" ref="mySpan" >
                 <div class="portfolio-header">
                     <div class="language-img-box">
@@ -160,10 +160,10 @@ export default {
         width: 90%;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10vh 70vh 20vh;
+        grid-template-rows: 10% 70% 20%;
         /* margin-bottom: 20px; */
         box-shadow: inset 0px 0px 20px 0px black;
-        height: 100vh;
+        height: 90vh;
 
     }
     .portfolio-header{

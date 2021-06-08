@@ -16,7 +16,7 @@
                         </router-link>
                     </li>
                     <li>
-                        <router-link to="/CV/portfolio" >
+                        <router-link to="/CV/portfolio" v-scroll-to="'#content'" >
                         <p>Portfolio</p> 
                         </router-link>
                     </li>

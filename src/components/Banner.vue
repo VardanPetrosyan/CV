@@ -12,17 +12,17 @@
                     </div>
             </div>
             <div class="main-content">
-                <h1>Hello My Friend!</h1>
+                <h1>Hello !</h1>
                 <p>
                     Enthusiastic full stack web developer welcomes you.  <br/>
                     Here you will find my biography ... <br/>
-                    
                 </p>
             </div>
             <div class="footer-content">
                 <button class="btn" id="Success-banner" v-on:click="$emit('cloas-banner', false)"><span class="noselect">Hello!</span></button>
             </div>
             <p style="color: #ffffff80;">The site is written in Vue JS.</p>
+            <p style="color: #ffffff80;">The back end is not yet complete. (COMING SOON).</p>
         </div>
     </div>
 </template>

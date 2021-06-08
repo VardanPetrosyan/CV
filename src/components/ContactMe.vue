@@ -4,28 +4,30 @@
             <div class="contacts">
                 <div class="rightBar">
                     <h3>
-                        СВЯЖИТЕСЬ СО МНОЙ
+                        Contacts
                     </h3>
                     <p>
-                        Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт.
+                        My personal informations
                     </p>
+                    <hr>    
                     <ul>
-                        <li>info@mysite.ru</li>
-                        <li>+7 (495) 000-00-00</li>
+                        <li><span>In:</span><a href="https://www.linkedin.com/in/vardan-petrosyan-a4051b210" target="_blank">Vardan Petrosyan</a></li>
+                        <li><span>E-mail:</span><a href="mailto:Vardan.petrosyan777@mail.ru" target="_blank">Vardan.petrosyan777@mail.ru</a></li>
+                        <li><span>Tell:</span><a href="tel:+37477123410" target="_blank">+374 77-12-34-10</a></li>
                     </ul>
                     
                 </div>
                 <div class="leftBar">
                     <div class="firstSection">
-                        <input type="text" value="" placeholder="Name" name=""/>
-                        <input type="text" value="" placeholder="E-mail" name=""/>
+                        <input type="text" value="" placeholder="Name *" name=""/>
+                        <input type="text" value="" placeholder="E-mail *" name=""/>
                     </div>
                     <div class="secondSection">
                         <input type="number" value="" placeholder="Tel" name=""/>
 
                     </div>
                     <div class="thirdSection">
-                        <textarea type="text" value="" placeholder="Massage ..." name=""/>
+                        <textarea type="text" value="" placeholder="Massage ... *" name=""/>
                     </div>
                     <div class="lastSection">
                         <button class="btn">Send</button>
@@ -105,18 +107,37 @@ export default {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0px 40px;
+        padding: 0px 10px;
     }
     .rightBar ul,.rightBar li{
         list-style: none;
         padding: 0;
+    }
+     .rightBar hr{
+        width:100%;
+    }
+    .rightBar ul{
+        width: 100%;
+        color: #ffffff8f;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: left;
+    }
+     .rightBar a {
+        color: #ffffff8f;
+        padding: 0px 10px;
+        transition: .3s;
+    }
+    .rightBar li:hover a, .rightBar li:hover  {
+        color:white;
     }
     .leftBar{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 0px 40px;
+        padding: 0px 10px;
         grid-gap: 10px;
     }
     .leftBar .firstSection{
@@ -201,9 +222,12 @@ export default {
     .rightBar h3{
         font-size: 16px;
     }
-    .rightBar p,.rightBar ul{
+   
+    
+    .rightBar p,.rightBar ul,.rightBar a{
         font-size: 14px;
     }
+   
     .leftBar .firstSection,.secondSection{
             grid-template-rows: minmax(20px,30px);
     }

@@ -7,7 +7,7 @@
             <div class="main-box" data-aos="fade-up">
                 <div class="back-end" data-aos="fade-right">
                     <p data-aos="fade-down">Back-end developent</p>
-                    <div class="skill-items">
+                    <div class="skill-items" data-aos="fade-right">
                         <div class="skill-item">
                             <circle-slider
                                 v-model="val1"
@@ -20,55 +20,156 @@
                             >
                             </circle-slider>
                             <div class="skill-value">{{ val1 }}%</div>
+                            <p>PHP</p>
+
                         </div>
                         <div class="skill-item">
-                        <circle-slider
-                            v-model="val1"
-                            :min="0"
-                            :max="100"
-                            :step-size="1"
-                            :circle-width="12"
-                            :progress-width="3"
-                            :knob-radius="4"
-                        >
-                        </circle-slider>
-                        <div class="skill-value">{{ val3 }}%</div>
+                            <circle-slider
+                                v-model="val3"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val3 }}%</div>
+                            <p>LARAVEL</p>
                         </div>
                     </div>
                     
                 </div>
-                <div data-aos="fade-right">
+                <div class="fron-end" data-aos="fade-right">
                     <p data-aos="fade-down">Fron-end developent</p>
-                    <div class="skill-item">
-                        <circle-slider
-                            v-model="val2"
-                            :min="0"
-                            :max="100"
-                            :step-size="1"
-                            :circle-width="12"
-                            :progress-width="3"
-                            :knob-radius="4"
-                        >
-                        </circle-slider>
-                        <div class="skill-value">{{ val2 }}%</div>
+                    <div class="skill-items" data-aos="fade-right">
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val2"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val2 }}%</div>
+                            <p>HTML</p>
+
+                        </div>
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val4"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val4 }}%</div>
+                            <p>CSS</p>
+
+                        </div>
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val5"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val5 }}%</div>
+                            <p>SASS</p>
+
+                        </div>
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val6"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val6 }}%</div>
+                            <p>BOOTSTRAP</p>
+
+                        </div>
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val7"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val7 }}%</div>
+                            <p>JavaScript</p>
+
+                        </div>
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val8"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val8 }}%</div>
+                            <p>Jquery</p>
+
+                        </div>
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val9"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val9 }}%</div>
+                            <p>Vue JS</p>
+
+                        </div>
                     </div>
                 </div>
-                <div data-aos="fade-right">
-                    <p data-aos="fade-down">Fron-end developent</p>
-                    <div class="skill-item">
-                        <circle-slider
-                            v-model="val2"
-                            :min="0"
-                            :max="100"
-                            :step-size="1"
-                            :circle-width="12"
-                            :progress-width="3"
-                            :knob-radius="4"
-                        >
-                        </circle-slider>
-                        <div class="skill-value">{{ val2 }}%</div>
+                <div class="cms" data-aos="fade-right">
+                    <p data-aos="fade-down">CMS</p>
+                    <div class="skill-items" data-aos="fade-right">
+                        <div class="skill-item">
+                            <circle-slider
+                                v-model="val10"
+                                :min="0"
+                                :max="100"
+                                :step-size="1"
+                                :circle-width="12"
+                                :progress-width="3"
+                                :knob-radius="4"
+                            >
+                            </circle-slider>
+                            <div class="skill-value">{{ val10 }}%</div>
+                            <p>PrestaShop</p>
+                        </div>
                     </div>
                 </div>
+                
             </div>
         </div>  
     </div>
@@ -83,6 +184,14 @@ export default {
             val1:0,
             val2:0,
             val3:0,
+            val4:0,
+            val5:0,
+            val6:0,
+            val7:0,
+            val8:0,
+            val9:0,
+            val10:0,
+
         }
     },
     components: {
@@ -95,30 +204,81 @@ export default {
             let i = 1;
             let stop1 = false,
                 stop2 = false,
-                stop3 = false;
+                stop3 = false,
+                stop4 = false,
+                stop5 = false,
+                stop6 = false,
+                stop7 = false,
+                stop8 = false,
+                stop9 = false,
+                stop10 = false;
+
                 
            this.timer = setInterval(()=>{
                 i++
                 
-                if(this.val1 == 40){
+                if(this.val1 == 60){
                     stop1 = true
                 }else{
                     this.val1 = i
                 }
 
-                if(this.val2 == 74){
+                if(this.val2 == 90){
                     stop2 = true
                 }else{
                     this.val2 = i
                 }
                 
-                if(this.val3 == 64){
+                if(this.val3 == 50){
                     stop3 = true
                 }else{
                     this.val3 = i
                 }
 
-                if(stop1 == true && stop2==true && stop3==true)
+                if(this.val4 == 90){
+                    stop4 = true
+                }else{
+                    this.val4 = i
+                }
+
+                if(this.val5 == 50){
+                    stop5 = true
+                }else{
+                    this.val5 = i
+                }
+
+                if(this.val6 == 80){
+                    stop6 = true
+                }else{
+                    this.val6 = i
+                }
+
+                 if(this.val7 == 60){
+                    stop7 = true
+                }else{
+                    this.val7 = i
+                }
+
+                if(this.val8 == 70){
+                    stop8 = true
+                }else{
+                    this.val8 = i
+                }
+
+                 if(this.val9 == 30){
+                    stop9 = true
+                }else{
+                    this.val9 = i
+                }
+
+                if(this.val10 == 50){
+                    stop10 = true
+                }else{
+                    this.val10 = i
+                }
+
+
+                if(stop1 == true && stop2==true && stop3==true && stop4==true && stop5==true && stop6==true && stop7==true && stop8==true && stop9==true && stop10==true)
                 {
                     this.stoper()
                 }
@@ -192,10 +352,14 @@ export default {
     .skill-item{
         width: max-content;
         text-align: center;
+        position: relative;
     }
     .skill-value{
         color: white;
         font-weight: 900;
+        position: absolute;
+        top: 23%;
+        left: 30%;
     }
      @media only screen and (max-width: 425px) {
        .title-box h3{

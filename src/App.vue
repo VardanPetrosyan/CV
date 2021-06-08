@@ -12,10 +12,10 @@
 
     <router-view />
     <Footer />
-    <Banner 
+    <!-- <Banner 
     v-if="showBanner"
     v-on:cloas-banner="cloasBanner"
-    />
+    /> -->
   </div>
 </template>
 
@@ -42,7 +42,7 @@ export default {
             y: window.innerHeight-100,
             count:4,
             icons:["fa fa-home","fa fa-history","fa fa-cogs","fa fa-address-card"],
-            list:[{isLink: true, url: "/CV/" },{'isLink':true,url:"/CV/#skillsSection"},{'isLink':true,url:"/CV/portfolio"},{'isLink':true,url:"/CV/#ContactMeContent"}],
+            list:[{isLink: true, url: "/CV/" },{'isLink':true,url:"/CV/#skillsSection"},{'isLink':true,url:"/CV/portfolio/#content"},{'isLink':true,url:"/CV/#ContactMeContent"}],
             backgroundColor:'rgb(170 174 177)',
             color:'black',
             position:'bottom-right',

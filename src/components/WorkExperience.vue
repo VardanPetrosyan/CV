@@ -13,21 +13,31 @@
                         <div class="verticaleLine" ></div>
                     </div>
                     <div class="rightBox" >
-                        <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2014—2016</p>
-                        <h3 class="placeOfWork" data-aos="fade-left" data-aos-duration="500">HOP!</h3>
-                        <p class="job" data-aos="fade-left" data-aos-duration="600">Креативный директор</p>
+                        <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2021.01 - 2021.04</p>
+                        <h3 class="placeOfWork" data-aos="fade-left" data-aos-duration="500">Beeoncode LLC</h3>
+                        <p class="job" data-aos="fade-left" data-aos-duration="600">Full-stack web developer</p>
                         <span class="aboutWork" data-aos="fade-left" data-aos-duration="700">
-                            Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт.
+                            Worked with senior developers and designers to implement web sites using HTML,CSS,Bootstrap,Jquery and Laravel.
+                            Mastered and expanded upon the skills/tasking that I was assigned during my internship phase.
+                            I started to develop my understanding of Prestashop CMS and learned how to use Vue js framework.
                         </span>
                     </div>
                 </div>
                 <div class="experienceItem">
                     <div class="leftBox">
-                         <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2014—2016</p>
-                        <h3 class="placeOfWork" data-aos="fade-right" data-aos-duration="500">HOP!</h3>
-                        <p class="job" data-aos="fade-right" data-aos-duration="600">Креативный директор</p>
+                         <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2020.08 - 2020.10</p>
+                        <h3 class="placeOfWork" data-aos="fade-right" data-aos-duration="500">Beeoncode LLC</h3>
+                        <p class="job" data-aos="fade-right" data-aos-duration="600">Full-stack web developer intern</p>
                         <span class="aboutWork" data-aos="fade-right" data-aos-duration="700">
-                            Это текст. Нажмите один раз и выберите «Редактировать текст» или просто кликните дважды, чтобы добавить свой текст и настроить шрифт.
+                            Lerned software tools in cooperation with continuous integration also test automation and supported.
+                            Wrote clean, clear and well-tested code for various projects.
+                            Prepared detailed reports on updates to project
+                            specifications, progress, identified conflicts and
+                            team activities.
+                            Quickly learned new skills and applied them to daily
+                            tasks, improving efficiency and productivity.
+                            Resolved problems, improved operations and
+                            provided exceptional service.
                         </span>
                     </div>
                     <div class="verticaleLineBox">
@@ -35,6 +45,67 @@
 
                     </div>
                     <div class="rightBox">
+                    </div>
+                </div>
+                <div class="experienceItem">
+                    <div class="leftBox">
+                    </div>
+                    <div class="verticaleLineBox">
+                        <div class="verticaleLine" ></div>
+                    </div>
+                    <div class="rightBox" >
+                        <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2015 sep -  2021 </p>
+                        <h3 class="placeOfWork" data-aos="fade-left" data-aos-duration="500">National Polytechnic University of Armenia</h3>
+                        <p class="job" data-aos="fade-left" data-aos-duration="600">B.Sc Cybernetics Faculty</p>
+                        <span class="aboutWork" data-aos="fade-left" data-aos-duration="700">
+                        </span>
+                    </div>
+                </div>
+                <div class="experienceItem">
+                    <div class="leftBox">
+                        <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2020.02 -  2020.07 </p>
+                        <h3 class="placeOfWork" data-aos="fade-right" data-aos-duration="500">Beeoncode LLC</h3>
+                        <p class="job" data-aos="fade-right" data-aos-duration="600">Training for a  web developer </p>
+                        <span class="aboutWork" data-aos="fade-right" data-aos-duration="700">
+                            I learned programming languages ​​such as "HTML, CSS, SASS, LESS, BOOTSTRAP, JS, JQUERY, PHP, LARAVEL"
+                        </span>
+                    </div>
+                    <div class="verticaleLineBox">
+                        <div class="verticaleLine" ></div>
+                    </div>
+                    <div class="rightBox" >
+                        
+                    </div>
+                </div>
+                <div class="experienceItem">
+                    <div class="leftBox">
+                        
+                    </div>
+                    <div class="verticaleLineBox">
+                        <div class="verticaleLine"></div>
+
+                    </div>
+                    <div class="rightBox">
+                         <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2012 sep -may 2015</p>
+                        <h3 class="placeOfWork" data-aos="fade-left" data-aos-duration="500">High School No.4</h3>
+                        <p class="job" data-aos="fade-left" data-aos-duration="600"></p>
+                        <span class="aboutWork" data-aos="fade-left" data-aos-duration="700">
+                        </span>
+                    </div>
+                </div>
+                <div class="experienceItem">
+                    <div class="leftBox">
+                         <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2004 sep - 2012may  </p>
+                        <h3 class="placeOfWork" data-aos="fade-right" data-aos-duration="500">School No.7</h3>
+                        <p class="job" data-aos="fade-right" data-aos-duration="600"></p>
+                        <span class="aboutWork" data-aos="fade-right" data-aos-duration="700">
+                        </span>
+                    </div>
+                    <div class="verticaleLineBox">
+                        <div class="verticaleLine" ></div>
+                    </div>
+                    <div class="rightBox" >
+                       
                     </div>
                 </div>
             </div>
