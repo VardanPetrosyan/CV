@@ -13,7 +13,7 @@
                         <div class="verticaleLine" ></div>
                     </div>
                     <div class="rightBox" >
-                        <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2021.01 - 2021.04</p>
+                        <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2021 January - 2021 April</p>
                         <h3 class="placeOfWork" data-aos="fade-left" data-aos-duration="500">Beeoncode LLC</h3>
                         <p class="job" data-aos="fade-left" data-aos-duration="600">Full-stack web developer</p>
                         <span class="aboutWork" data-aos="fade-left" data-aos-duration="700">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="experienceItem">
                     <div class="leftBox">
-                         <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2020.08 - 2020.10</p>
+                         <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2020 August - 2020 October</p>
                         <h3 class="placeOfWork" data-aos="fade-right" data-aos-duration="500">Beeoncode LLC</h3>
                         <p class="job" data-aos="fade-right" data-aos-duration="600">Full-stack web developer intern</p>
                         <span class="aboutWork" data-aos="fade-right" data-aos-duration="700">
@@ -54,7 +54,7 @@
                         <div class="verticaleLine" ></div>
                     </div>
                     <div class="rightBox" >
-                        <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2015 sep -  2021 </p>
+                        <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2015 September -  2021 June </p>
                         <h3 class="placeOfWork" data-aos="fade-left" data-aos-duration="500">National Polytechnic University of Armenia</h3>
                         <p class="job" data-aos="fade-left" data-aos-duration="600">B.Sc Cybernetics Faculty</p>
                         <span class="aboutWork" data-aos="fade-left" data-aos-duration="700">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="experienceItem">
                     <div class="leftBox">
-                        <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2020.02 -  2020.07 </p>
+                        <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2020 February -  2020 August </p>
                         <h3 class="placeOfWork" data-aos="fade-right" data-aos-duration="500">Beeoncode LLC</h3>
                         <p class="job" data-aos="fade-right" data-aos-duration="600">Training for a  web developer </p>
                         <span class="aboutWork" data-aos="fade-right" data-aos-duration="700">
@@ -86,7 +86,7 @@
 
                     </div>
                     <div class="rightBox">
-                         <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2012 sep -may 2015</p>
+                         <p class="yearOfExperience" data-aos="fade-left" data-aos-duration="400">2012 September - 2015 May</p>
                         <h3 class="placeOfWork" data-aos="fade-left" data-aos-duration="500">High School No.4</h3>
                         <p class="job" data-aos="fade-left" data-aos-duration="600"></p>
                         <span class="aboutWork" data-aos="fade-left" data-aos-duration="700">
@@ -95,7 +95,7 @@
                 </div>
                 <div class="experienceItem">
                     <div class="leftBox">
-                         <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2004 sep - 2012may  </p>
+                         <p class="yearOfExperience" data-aos="fade-right" data-aos-duration="400">2004 September - 2012 May  </p>
                         <h3 class="placeOfWork" data-aos="fade-right" data-aos-duration="500">School No.7</h3>
                         <p class="job" data-aos="fade-right" data-aos-duration="600"></p>
                         <span class="aboutWork" data-aos="fade-right" data-aos-duration="700">
